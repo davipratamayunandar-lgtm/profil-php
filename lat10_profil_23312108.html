@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Utama | lat8_23312108</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-gray-800 text-white py-4 shadow-md">
+    <h1 class="text-2xl font-semibold text-center">Profil Saya</h1>
+  </header>
+
+  <!-- Layout -->
+  <div class="flex min-h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-gray-900 text-white flex flex-col p-6 space-y-4">
+      <h2 class="text-lg font-semibold mb-2 border-b border-gray-700 pb-2">Navigasi</h2>
+      <nav class="flex flex-col space-y-3">
+        <a href="lat10_profil_23312108.html" class="bg-gray-700 px-3 py-2 rounded-md transition">🏠 Profil Utama</a>
+        <a href="proyek/lat10_proyek_23312108.php" class="hover:bg-gray-700 px-3 py-2 rounded-md transition">📁 Proyek</a>
+        <a href="keahlian/lat10_keahlian_23312108.php" class="hover:bg-gray-700 px-3 py-2 rounded-md transition">💼 Keahlian</a>
+      </nav>
+    </aside>
+
+    <!-- Konten -->
+    <main class="flex-1 p-8">
+      <div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-md p-8">
+
+        <!-- Bagian Profil -->
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+          <img src="images/foto.png" alt="Foto Profil" class="w-40 h-40 rounded-full shadow-md object-cover border-4 border-gray-300">
+          
+          <div>
+            <h2 class="text-3xl font-bold text-gray-800 mb-2">Davi Pratama Yunandar</h2>
+            <p class="text-gray-600 mb-2">Mahasiswa Universitas Teknokrat Indonesia</p>
+            <p class="text-gray-700">Program Studi Informatika</p>
+
+            <div class="mt-4 space-x-3">
+              <a href="proyek/lat10_proyek_23312108.php" class="bg-gray-700 text-white px-4 py-2 rounded-full hover:scale-105 transition">Lihat Proyek</a>
+              <a href="keahlian/lat10_keahlian_23312108.php" class="bg-gray-500 text-white px-4 py-2 rounded-full hover:scale-105 transition">Lihat Keahlian</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tentang Saya -->
+        <section class="mt-10">
+          <h3 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Tentang Saya</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Saya adalah seorang mahasiswa yang memiliki minat besar dalam bidang pengembangan web dan teknologi digital.
+            Fokus utama saya adalah membangun aplikasi berbasis web dengan desain responsif, modern, dan fungsional.
+          </p>
+        </section>
+
+        <!-- Info Kontak -->
+        <section class="mt-10">
+          <h3 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Informasi Kontak</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li>📧 Email: <span class="font-semibold">davi.pratama@teknokrat.ac.id</span></li>
+            <li>📱 Telepon: <span class="font-semibold">+62 812 3456 7890</span></li>
+            <li>📍 Alamat: <span class="font-semibold">Bandar Lampung, Indonesia</span></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-3 mt-10">
+    <p>© 2025 Davi Pratama Yunandar | Universitas Teknokrat Indonesia</p>
+  </footer>
+
+</body>
+</html>
